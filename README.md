@@ -6,19 +6,18 @@ For detailed descrption of use case examples and methods/results see (https://gi
 For brief summary of workflow steps/high level details see below.
 
 ## Workflow steps/high level details:
-•	Used the “gtrendsR” library to extract all monthly historical data associated with the following search queries: “TV”, “data science”, and "hey google"
+Used the “gtrendsR” library to extract all monthly historical data associated with the following search queries: “TV”, “data science”, and "hey google" and compared performance of various algorithms used. Workflow steps follow:
 
-•	Decomposed the resulting series into their seasonal, trend, and remainder components
+  •	Decomposed the resulting series into their seasonal, trend, and remainder components
 
-•	Used the HoltWinters and auto.arima functions to fit a single, double, and triple exponential smoothing to the data as well as an ARIMA model using only data for up to December 2016. 
+  •	Used the HoltWinters (single, double, and triple exponential smoothing functions), ARIMA, and auto.ARIMA algorithms to the data for up to     December 2016. 
+  
+  •	Plotted the autocorrelation function for up to 20 lags for each time series. Used information from above correlograms, to make choice of       parameters for an ARIMA model.  
 
-•	Calculated the accuracy of the predictions for all 2017 from above models.
+  •	Calculated predictions for 2017 data using all algorithms and compared performance using various accuracy measures.
 
-•	Plotted the autocorrelation function for up to 20 lags for each time series. Removed the trend component if necessary, to obtain useful information.  
+ 
 
-•	Used information from above correlograms, to make choice of parameters for an ARIMA model.  
 
-•	Fitted an ARIMA model and calculated the mean absolute error of your model over the whole data set
-
-•	Fitted an ARIMA model with auto.arima on the same data. 
+  
 

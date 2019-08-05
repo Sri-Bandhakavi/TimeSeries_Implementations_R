@@ -10,11 +10,11 @@ Used the “gtrendsR” library to extract all monthly historical data associate
 
   •	Decomposed the resulting series into their seasonal, trend, and remainder components
 
-  •	Used the HoltWinters (single, double, and triple exponential smoothing functions), ARIMA, and auto.ARIMA algorithms to the data for up to     December 2016. 
+  •	Used the HoltWinters (single, double, and triple exponential smoothing functions), ARIMA, and auto.ARIMA algorithms on data for up to         December 2016 time-period. 
   
   •	Plotted the autocorrelation function for up to 20 lags for each time series. Used information from above correlograms, to make choice of       parameters for an ARIMA model.  
 
-  •	Calculated predictions for 2017 data using all algorithms and compared performance using various accuracy measures.
+  •	Calculated predictions for 2017 data and compared performance across all algorithms using various accuracy measures.
 
  
 

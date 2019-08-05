@@ -1,5 +1,5 @@
 # TimeSeries_Implementations_R
-Implementation of multiple time series algorithms (exponential smooth-single, double, triple, arima-manual and auto) using preloaded datasets in gtrends library.
+Implementation of multiple time series algorithms (exponential smooth-single, double, triple, arima-manual and auto) using preloaded datasets in gtrends library. For detailed descrption of use case examples and methods/results see (TimeSeries_Examples_Methods_Results_Description.pdf). For brief summary of workflow steps/high level details see below.
 
 ## Workflow steps/high level details:
 •	Used the “gtrendsR” library to extract all monthly historical data associated with the following search queries: “TV”, “data science”, and "hey google"
